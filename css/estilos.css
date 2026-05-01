@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+}
+
+/* -- Boton con gradiente -- */
+.btnContact{
+    background: linear-gradient(to bottom left, #656ef0, #53007c);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.btnContact:hover{
+    background: linear-gradient(to bottom right, rgb(137, 12, 76), rgb(252, 82, 53));
+}
+
+.btnContact:active{
+    background: linear-gradient(to top left, rgb(4, 168, 229), rgb(14, 63, 121));
+    box-shadow: 0 4px 15px #514fc0dd;
+}
+
+header{
+    box-shadow: 0 0px 15px #4fa8c0dd;
+    margin: 0px;
+    padding: 15px 40px 15px 95px;
+}
+
+.espaciado{
+    gap: 40px; 
+}
+
+.letraGris{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(74, 85, 104);
+    font-size: 20px;
+}
+
+#letraTitulo{
+    font-size: 30px;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.alinearHB{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinearHA{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* En estilos.css */
+.centrarV {
+    display: flex;
+    align-items: center;
+}
+
+/* -- Iconos -- */
+.icono{
+    font-size: 40px;
+    color: #53007c;
+}
+
+.icono:hover{
+    font-size: 40px;
+    color: #656ef0;
+}
+
+.icono:active{
+    font-size: 40px;
+    color: #8600c8;
+}
+
+/* -- textos --*/
+.interlineado{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: xx-large;
+    padding: 50px;
+    line-height: 1.75;
+}
+
+
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(113, 128, 150);
+    line-height: 2;
+    padding: 0px 40px 80px;
+    /**/
+}
+
+.caja{
+    /*texto centrado*/
+    text-align: center;
+}
+
+.pad{
+    padding: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* -- Usuarios -- */
+
+.usuarios{
+    gap: 80px;
+}
+
+/* -- Caja de Usuario -- */
+.portada{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.stars{
+    padding: 15px;
+}
+
+.usuario{
+    color: rgb(87, 0, 123);
+    font-size: larger;
+    padding: 0px 0px 0px;
+    font-weight: bold;
+}
+
+/* -- Caja de Usuario 2 --*/
+
+.portada2{
+    height: 90px;  
+    width: 90px;
+    border-radius: 50px;
+    opacity: 0.5;
+}
+
+.stars2{
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.usuario2{
+    color: rgb(87, 0, 123);
+    font-size: medium;
+    padding: 0px 0px 0px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.cargo2{
+    font-size: smaller;
+    opacity: 0.5;
+}
+
+/**/
