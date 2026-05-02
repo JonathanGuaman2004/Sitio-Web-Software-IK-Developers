@@ -104,11 +104,6 @@ header{
     /**/
 }
 
-.caja{
-    /*texto centrado*/
-    text-align: center;
-}
-
 .texto-centro{
     /*texto centrado*/
     text-align: center;
@@ -125,13 +120,12 @@ header{
     line-height: 1.5;
 }
 
-.fuente-recursos{
+.fuente-segoe{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.pad{
+.pad-60{
     padding: 60px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pad-recursos{
