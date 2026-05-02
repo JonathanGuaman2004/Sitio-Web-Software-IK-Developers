@@ -24,7 +24,7 @@ body{
 }
 
 header{
-    box-shadow: 0 0px 15px #4fa8c0dd;
+    box-shadow: 0 0px 15px #d3d3d3;
     margin: 0px;
     padding: 15px 40px 15px 95px;
 }
@@ -76,6 +76,11 @@ header{
     color: #8600c8;
 }
 
+.icono2{
+    font-size: 20px;
+    color: #53007c;
+}
+
 /* -- textos --*/
 .interlineado{
     display: flex;
@@ -104,11 +109,34 @@ header{
     text-align: center;
 }
 
+.texto-centro{
+    /*texto centrado*/
+    text-align: center;
+}
+
+.texto-izq{
+    text-align: left;
+}
+
+.texto-recursos{
+    text-align: left;
+    color: rgb(38, 44, 56);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.fuente-recursos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pad{
     padding: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.pad-recursos{
+    padding: 0px 60px 60px;
+}
 /* -- Usuarios -- */
 
 .usuarios{
@@ -185,6 +213,38 @@ header{
 .cargo3{
     font-size: x-small;
     opacity: 0.3;
+}
+
+/* --Resources-- */
+
+.recursos{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta-recurso{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 255px;
+}
+
+.enlace-READ-MORE{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    color: #53007c;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.img-recurso{
+    width: 100%;
+    height: 175px;
+    border-radius: 10px;
 }
 
 /**/
