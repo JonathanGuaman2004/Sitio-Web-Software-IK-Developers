@@ -29,6 +29,56 @@ header{
     padding: 15px 40px 15px 95px;
 }
 
+.btnStart{
+    background-color: #3b57df;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.btnStart:hover{
+    background-color: #2a3eb1;
+}
+.btnStart:active{
+    box-shadow: 0 4px 15px #514fc0dd;
+}
+
+.img-principal{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pd-inicio{
+    padding: 40px 25px 30px;
+    font-family: 'Segoe UI Light', 'Segoe UI', sans-serif;
+}
+
+.pd-mission{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 2;
+    color: rgb(74, 85, 104);
+    padding: 30px 0px 60px;
+}
+.tx-junto{
+    display: flex;
+    gap: 18px;
+}
+
+.tx-gradier{
+    background: linear-gradient(to left, #b664b4, #9621c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bold{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
 .espaciado{
     gap: 40px; 
 }
@@ -41,7 +91,9 @@ header{
 
 #letraTitulo{
     font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 /* ------------------------------------------------------------------------------------------------------------ */
 
 .alinearHB{
@@ -123,8 +175,16 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.textMax{
+    font-size: 60px;
+}
+
 .pad-60{
     padding: 60px;
+}
+
+.pad-140{
+    padding: 140px;
 }
 
 .pad-recursos{
